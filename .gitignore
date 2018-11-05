@@ -1,0 +1,13 @@
+# vscode
+.vscode
+
+# runfile
+**/*.o
+
+# text file
+**/*.txt
+**/plain*
+
+# is08 key file
+is08/*.pem
+is08/*.key
