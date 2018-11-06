@@ -8,6 +8,6 @@
 **/*.txt
 **/plain*
 
-# is08 key file
-is08/*.pem
-is08/*.key
+# rsa key file
+**/*.pem
+**/*.key
