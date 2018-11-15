@@ -11,3 +11,6 @@
 # rsa key file
 **/*.pem
 **/*.key
+
+# old code
+**/old/*

@@ -13,9 +13,15 @@
 #include <signal.h>
 
 #include <openssl/des.h>
+#include <openssl/rsa.h>
+#include <openssl/bio.h>
+#include <openssl/pem.h>
 
 #define NAME_SIZE	64
 #define MSG_SIZE	256
+
+#define KEY_LENGTH  1024
+#define PUB_EXP     3
 
 pthread_mutex_t mutex;
 
